@@ -4,7 +4,7 @@ const fs = require('fs-extra')
 class CombineJsonCommand extends Command {
   async run() {
     const cwdFiles = await fs.readdir(process.cwd())
-    const jsonFiles = cwdFiles.filter(fileName => fileName.includes(`.json`))
+    const jsonFiles = cwdFiles.filter(fileName => fileName.includes('.json'))
 
     const jsonArray = []
 
@@ -16,10 +16,6 @@ class CombineJsonCommand extends Command {
       } else {
         jsonArray.push(fileContents)
       }
-
-      // setTimeout(() => {
-      //   process.exit()
-      // }, 1);
     }
 
     await fs.writeJSON('__all.json', jsonArray)

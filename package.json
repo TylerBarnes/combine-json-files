@@ -1,12 +1,12 @@
 {
-  "name": "combine-json",
+  "name": "combine-json-files",
   "description": "combines json files from the current directory into one json file",
   "version": "0.0.0",
   "author": "Tyler Barnes @TylerBarnes",
   "bin": {
-    "combine-json": "./bin/run"
+    "combine-json-files": "./bin/run"
   },
-  "bugs": "https://github.com/TylerBarnes/combine-json/issues",
+  "bugs": "https://github.com/TylerBarnes/combine-json-files/issues",
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
@@ -25,16 +25,16 @@
     "/bin",
     "/src"
   ],
-  "homepage": "https://github.com/TylerBarnes/combine-json",
+  "homepage": "https://github.com/TylerBarnes/combine-json-files",
   "keywords": [
     "oclif"
   ],
   "license": "MIT",
   "main": "src/index.js",
   "oclif": {
-    "bin": "combine-json"
+    "bin": "combine-json-files"
   },
-  "repository": "TylerBarnes/combine-json",
+  "repository": "TylerBarnes/combine-json-files",
   "scripts": {
     "posttest": "eslint .",
     "prepack": "oclif-dev readme",

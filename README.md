@@ -15,14 +15,14 @@ combines json files from the current directory into one json file
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g combine-json
-$ combine-json COMMAND
+$ npm install -g combine-json-files
+$ combine-json-files COMMAND
 running command...
-$ combine-json (-v|--version|version)
-combine-json/0.0.0 darwin-x64 node-v10.16.3
-$ combine-json --help [COMMAND]
+$ combine-json-files (-v|--version|version)
+combine-json-files/0.0.0 darwin-x64 node-v10.16.3
+$ combine-json-files --help [COMMAND]
 USAGE
-  $ combine-json COMMAND
+  $ combine-json-files COMMAND
 ...
 ```
 <!-- usagestop -->
